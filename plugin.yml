@@ -1,0 +1,20 @@
+---
+name: Unknown
+main: InvSee\Loader
+api:
+- 2.0.0
+- 3.0.0-ALPHA10
+version: 2.000000
+author:
+  tschrock: ~
+  iPedroo: ~
+commands:
+  inv:
+    description: "Ver invent\xE1rio de outros jogadores."
+    usage: /inv <Jogador>
+    permission: invsee.cmd
+permissions:
+  inv.cmd:
+    description: "Permite ver o invent\xE1rio de outros jogadores."
+    default: op
+...
